@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--<types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>-->
+      <!-- Custom Objects -->
+    <types>
+        <members>Attendee__c</members> <!-- Replace * with specific object names if needed -->
+        <members>Event__c</members>
+        <members>Registration__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Profiles -->
+    <types>
+        <members>*</members> <!-- Replace * with specific profile names if needed -->
+        <name>Profile</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>*</members> <!-- Replace * with specific permission set names if needed -->
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Record Types -->
+    <types>
+        <members>*</members> <!-- Replace * with specific record type names if needed -->
+        <name>RecordType</name>
+    </types>
+ <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <!-- Page Layouts -->
+    <types>
+        <members>*</members> <!-- Replace * with specific page layout names if needed -->
+        <name>Layout</name>
+    </types>
+
+    <!-- Reports -->
+    <types>
+        <members>*</members> <!-- Replace * with specific report names if needed -->
+        <name>Report</name>
+    </types>
+
+    <!-- Dashboards -->
+    <types>
+        <members>*</members> <!-- Replace * with specific dashboard names if needed -->
+        <name>Dashboard</name>
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>*</members> <!-- Replace * with specific flow names if needed -->
+        <name>Flow</name>
+    </types>
+
+    <!-- Custom Layouts -->
+    <types>
+        <members>*</members> <!-- Replace * with specific custom layout names if needed -->
+        <name>CompactLayout</name>
+    </types>
+
+    <!-- Custom Fields -->
+    <types>
+        <members>*</members> <!-- Replace * with specific custom field names if needed -->
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <version>61.0</version>
+</Package>
